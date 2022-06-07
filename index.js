@@ -16,3 +16,7 @@ function distanceTravelledInFeet(distanceFromHQ , dTravelledInFeet){
 
 }
 
+function calculatesFarePrice(){
+
+    
+}

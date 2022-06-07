@@ -1,15 +1,18 @@
 // Code your solution in this file!
-const HQBlocks = 42;
+const distanceFromHQ = 42;
 //const fromHQ = num2;
-function distanceFromHqInBlocks(currentLocation){
-     let distanceInBlocks = HQBlocks - currentLocation ;
+function distanceFromHqInBlocks(currentLocationInBlocks){
+     let distanceInBlocks = distanceFromHQ - currentLocationInBlocks ;
      return Math.abs(distanceInBlocks);
 }
 function distanceFromHqInFeet(currentLocationInFeet){
-    let distanceInFeet = ((HQBlocks - currentLocationInFeet)*264);
+    let distanceInFeet = ((distanceFromHQ - currentLocationInFeet)*264);
     return Math.abs((distanceInFeet));
 }
 
-function distanceTravelledInFeet(){
-    
+function distanceTravelledInFeet(distanceFromHQ , dTravelledInFeet){
+    let TravelledInFeet = ((distanceFromHQ - dTravelledInFeet)*264);
+    return Math.abs(TravelledInFeet);
+
 }
+

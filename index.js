@@ -10,4 +10,6 @@ function distanceFromHqInFeet(currentLocationInFeet){
     return Math.abs((distanceInFeet));
 }
 
-func
+function distanceTravelledInFeet(){
+    
+}
